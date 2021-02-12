@@ -7,7 +7,7 @@ interface IProduct {
 }
 
 interface HomeProps {
-  recommendedProducts: IProduct;
+  recommendedProducts: IProduct[];
 }
 
 export default function Home({recommendedProducts}: HomeProps) {
